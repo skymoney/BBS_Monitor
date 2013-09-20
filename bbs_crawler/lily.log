@@ -1,0 +1,223 @@
+2013-09-19 14:39:17+0800 [scrapy] INFO: Scrapy 0.18.2 started (bot: bbs_crawler)
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Optional features available: ssl, django, http11, libxml2
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Overridden settings: {'NEWSPIDER_MODULE': 'bbs_crawler.spiders', 'FEED_URI': 'lily.json', 'SPIDER_MODULES': ['bbs_crawler.spiders'], 'BOT_NAME': 'bbs_crawler', 'FEED_FORMAT': 'json', 'LOG_FILE': 'lily.log', 'DOWNLOAD_DELAY': 5}
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Enabled item pipelines: 
+2013-09-19 14:39:17+0800 [lily] INFO: Spider opened
+2013-09-19 14:39:17+0800 [lily] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6024
+2013-09-19 14:39:17+0800 [scrapy] DEBUG: Web service listening on 0.0.0.0:6081
+2013-09-19 14:39:17+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstop10> (referer: None)
+2013-09-19 14:39:25+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=Girls&file=M.1379488974.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:39:25+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=Girls&file=M.1379488974.A&start=-1>
+	{'author': u' Delimirinda',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=Delimirinda',
+	 'board': u'Girls',
+	 'comment': [{'author': u'tyss', 'comment': None},
+	             {'author': u'sX2', 'comment': None},
+	             {'author': u'kyhd', 'comment': None},
+	             {'author': u'ziyuhezai', 'comment': None},
+	             {'author': u'Chad', 'comment': None},
+	             {'author': u'menglh', 'comment': None},
+	             {'author': u'794346851', 'comment': None},
+	             {'author': u'794346851', 'comment': None},
+	             {'author': u'121296626', 'comment': None},
+	             {'author': u'Chad', 'comment': None},
+	             {'author': u'121296626', 'comment': None},
+	             {'author': u'Chad', 'comment': None},
+	             {'author': u'chr', 'comment': None},
+	             {'author': u'nancy369111', 'comment': None},
+	             {'author': u'15195999005', 'comment': None},
+	             {'author': u'sunspirit', 'comment': None},
+	             {'author': u'MG1334006', 'comment': None},
+	             {'author': u'feelinggod', 'comment': None},
+	             {'author': u'soyo', 'comment': None},
+	             {'author': u'AugustusMMx', 'comment': None},
+	             {'author': u'tangtang', 'comment': None},
+	             {'author': u'kaurala', 'comment': None},
+	             {'author': u'Isco', 'comment': None},
+	             {'author': u'Flyfe', 'comment': None}],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=Girls&file=M.1379488974.A&start=-1',
+	 'rank': u'\u7b2c 2 \u540d',
+	 'title': u'\u6211\u662f\u6765\u5411\u82ac\u8fbe\u53d4\u8868\u767d\u7684\n'}
+2013-09-19 14:39:32+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=Pictures&file=M.1379502623.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:39:32+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=Pictures&file=M.1379502623.A&start=-1>
+	{'author': u' vonhabsburg',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=vonhabsburg',
+	 'board': u'Pictures',
+	 'comment': [],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=Pictures&file=M.1379502623.A&start=-1',
+	 'rank': u'\u7b2c 1 \u540d',
+	 'title': u'\u5357\u65b9\u7537\u751f\u88ab\u5317\u65b9\u6fa1\u5802\u5413\u574f\u4e0d\u6562\u8131\u5185\u88e4 \u5357\u65b9\u5973\u751f\u7a7f\u6cf3\u8863\u6d17\n'}
+2013-09-19 14:39:37+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=D_Physics&file=M.1379516615.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:39:37+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=D_Physics&file=M.1379516615.A&start=-1>
+	{'author': u'     phypoet',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=phypoet',
+	 'board': u'D_Physics',
+	 'comment': [{'author': u'521927', 'comment': None},
+	             {'author': u'kingster', 'comment': None},
+	             {'author': u'bridgewang', 'comment': None},
+	             {'author': u'upon22', 'comment': None},
+	             {'author': u'7894507', 'comment': None},
+	             {'author': u'build001', 'comment': None},
+	             {'author': u'910417', 'comment': None},
+	             {'author': u'MF1322009', 'comment': None},
+	             {'author': u'MF1322009', 'comment': None}],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=D_Physics&file=M.1379516615.A&start=-1',
+	 'rank': u'\u7b2c 10 \u540d',
+	 'title': u'\u70ed\u70c8\u5e86\u795d\u7269\u7406\u5b66\u9662\u7814\u7a76\u751f\u4f1a\u6210\u7acb\u5566\uff01\uff01\uff01\n'}
+2013-09-19 14:39:43+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=Cycling&file=M.1379496949.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:39:43+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=Cycling&file=M.1379496949.A&start=-1>
+	{'author': u'      AAC001',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=AAC001',
+	 'board': u'Cycling',
+	 'comment': [{'author': u'Angora', 'comment': None},
+	             {'author': u'wlj2005', 'comment': None},
+	             {'author': u'NaiMao', 'comment': None},
+	             {'author': u'121120066', 'comment': None},
+	             {'author': u'sayhelloto', 'comment': None},
+	             {'author': u'Merlin', 'comment': None},
+	             {'author': u'dgou', 'comment': None},
+	             {'author': u'FirstBlood', 'comment': None},
+	             {'author': u'WangZhizhi', 'comment': None}],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=Cycling&file=M.1379496949.A&start=-1',
+	 'rank': u'\u7b2c 9 \u540d',
+	 'title': u'\u8bb0\u6211\u4eba\u751f\u7684\u62fc\u56fe\u4e4b\u4e00----\u9a6c\u81ea\u9a91\n'}
+2013-09-19 14:39:49+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=Pictures&file=M.1379504514.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:39:49+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=Pictures&file=M.1379504514.A&start=-1>
+	{'author': u'       zhzhf',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=zhzhf',
+	 'board': u'Pictures',
+	 'comment': [{'author': u'hardworking', 'comment': None},
+	             {'author': u'13519', 'comment': None},
+	             {'author': u'voluntas', 'comment': None},
+	             {'author': u'freeman12', 'comment': None},
+	             {'author': u'kaoya2010', 'comment': None},
+	             {'author': u'Craigie', 'comment': None},
+	             {'author': u'yaerda', 'comment': None},
+	             {'author': u'chaoszyy', 'comment': None},
+	             {'author': u'wdxs', 'comment': None},
+	             {'author': u'seeryu', 'comment': None},
+	             {'author': u'lovered', 'comment': None},
+	             {'author': u'kanare', 'comment': None}],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=Pictures&file=M.1379504514.A&start=-1',
+	 'rank': u'\u7b2c 8 \u540d',
+	 'title': u'\u79c0\u4e00\u4e0b\u6211\u5bb6\u7684\u5927\u767d\u732b\uff0c\u4e24\u53ea\u773c\u775b\u989c\u8272\u4e0d\u4e00\u6837\n'}
+2013-09-19 14:39:55+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=D_Computer&file=M.1379520890.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:39:55+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=D_Computer&file=M.1379520890.A&start=-1>
+	{'author': u'   wwwjjjfff',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=wwwjjjfff',
+	 'board': u'D_Computer',
+	 'comment': [],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=D_Computer&file=M.1379520890.A&start=-1',
+	 'rank': u'\u7b2c 7 \u540d',
+	 'title': u'2013\u7ea7\u7814\u7a76\u751f\u4eec\u4e2d\u79cb\u5feb\u4e50~\n'}
+2013-09-19 14:40:01+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=M_Logistic&file=M.1379552929.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:40:01+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=M_Logistic&file=M.1379552929.A&start=-1>
+	{'author': u'   MG1206087',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=MG1206087',
+	 'board': u'M_Logistic',
+	 'comment': [{'author': u'xiangdoudou', 'comment': None},
+	             {'author': u'creamcx', 'comment': None},
+	             {'author': u'chenavril333', 'comment': None},
+	             {'author': u'mf1208008', 'comment': None},
+	             {'author': u'1989yll', 'comment': None},
+	             {'author': u'121296626', 'comment': None},
+	             {'author': u'huakaitumi', 'comment': None},
+	             {'author': u'linglong0810', 'comment': None},
+	             {'author': u'043751', 'comment': None},
+	             {'author': u'minthy', 'comment': None},
+	             {'author': u'mf1208020', 'comment': None},
+	             {'author': u'yait124', 'comment': None},
+	             {'author': u'218038', 'comment': None},
+	             {'author': u'yait124', 'comment': None},
+	             {'author': u'hollyforward', 'comment': None},
+	             {'author': u'amaida', 'comment': None},
+	             {'author': u'Mischerry', 'comment': None},
+	             {'author': u'liu56', 'comment': None},
+	             {'author': u'hehuan', 'comment': None},
+	             {'author': u'bubu719', 'comment': None},
+	             {'author': u'kerrity', 'comment': None},
+	             {'author': u'haozhu01234', 'comment': None},
+	             {'author': u'kerrity', 'comment': None},
+	             {'author': u'linxiaoyang', 'comment': None},
+	             {'author': u'9295', 'comment': None},
+	             {'author': u'blueblue16', 'comment': None},
+	             {'author': u'queenzlouise', 'comment': None}],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=M_Logistic&file=M.1379552929.A&start=-1',
+	 'rank': u'\u7b2c 6 \u540d',
+	 'title': u'\u8bd7\u610f\u4e2d\u79cb\uff0c\u6211\u4e0e\u5bbf\u7ba1\u963f\u59e8\u7684\u201c\u65b0\u4e0d\u4e86\u60c5\u201d\n'}
+2013-09-19 14:40:08+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=Girls&file=M.1379502187.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:40:08+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=Girls&file=M.1379502187.A&start=-1>
+	{'author': u'     1865nan',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=1865nan',
+	 'board': u'Girls',
+	 'comment': [{'author': u'zssapr', 'comment': None},
+	             {'author': u'794346851', 'comment': None},
+	             {'author': u'15195999005', 'comment': None},
+	             {'author': u'1Q84', 'comment': None},
+	             {'author': u'xiaoranmeng', 'comment': None},
+	             {'author': u'tyss', 'comment': None},
+	             {'author': u'soyo', 'comment': None},
+	             {'author': u'1865nan', 'comment': None},
+	             {'author': u'101120122', 'comment': None},
+	             {'author': u'kaoya2010', 'comment': None},
+	             {'author': u'15851842563', 'comment': None},
+	             {'author': u'johnxiong', 'comment': None},
+	             {'author': u'dragonborn', 'comment': None}],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=Girls&file=M.1379502187.A&start=-1',
+	 'rank': u'\u7b2c 5 \u540d',
+	 'title': u'\u8ffd\u5973\u751f\u7684\u6700\u5927\u5931\u8bef\uff1a\u8054\u7cfb\u592a\u9891\u7e41\n'}
+2013-09-19 14:40:15+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=WorldFootball&file=M.1379524038.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:40:15+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=WorldFootball&file=M.1379524038.A&start=-1>
+	{'author': u'   Milanello',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=Milanello',
+	 'board': u'WorldFootball',
+	 'comment': [],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=WorldFootball&file=M.1379524038.A&start=-1',
+	 'rank': u'\u7b2c 4 \u540d',
+	 'title': u'\u4e9a\u51a0-\u57c3\u795e\u4e24\u7403\u7a46\u91cc\u5947\u7834\u95e8 \u6052\u5927\u603b\u6bd4\u52066-1\u664b\u7ea7\u56db\u5f3a\n'}
+2013-09-19 14:40:17+0800 [lily] INFO: Crawled 10 pages (at 10 pages/min), scraped 9 items (at 9 items/min)
+2013-09-19 14:40:18+0800 [lily] DEBUG: Crawled (200) <GET http://bbs.nju.edu.cn/bbstcon?board=S_Chemistry&file=M.1379507102.A&start=-1> (referer: http://bbs.nju.edu.cn/bbstop10)
+2013-09-19 14:40:18+0800 [lily] DEBUG: Scraped from <200 http://bbs.nju.edu.cn/bbstcon?board=S_Chemistry&file=M.1379507102.A&start=-1>
+	{'author': u'      chemyh',
+	 'authorlink': 'http://bbs.nju.edu.cn/bbsqry?userid=chemyh',
+	 'board': u'S_Chemistry',
+	 'comment': [],
+	 'content': None,
+	 'link': 'http://bbs.nju.edu.cn/bbstcon?board=S_Chemistry&file=M.1379507102.A&start=-1',
+	 'rank': u'\u7b2c 3 \u540d',
+	 'title': u'\u3010\u7814\u4f1a\u3011\u201c\u8d70\u8fdb\u767e\u5e74\u540d\u6821\uff0c\u5b66\u957f\u5e26\u4f60\u901b\u5357\u5927\u201d\u6d3b\u52a8\u603b\u7ed3\n'}
+2013-09-19 14:40:18+0800 [lily] INFO: Closing spider (finished)
+2013-09-19 14:40:18+0800 [lily] INFO: Stored json feed (10 items) in: lily.json
+2013-09-19 14:40:18+0800 [lily] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 3354,
+	 'downloader/request_count': 11,
+	 'downloader/request_method_count/GET': 11,
+	 'downloader/response_bytes': 63609,
+	 'downloader/response_count': 11,
+	 'downloader/response_status_count/200': 11,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 9, 19, 6, 40, 18, 843677),
+	 'item_scraped_count': 10,
+	 'log_count/DEBUG': 27,
+	 'log_count/INFO': 5,
+	 'request_depth_max': 1,
+	 'response_received_count': 11,
+	 'scheduler/dequeued': 11,
+	 'scheduler/dequeued/memory': 11,
+	 'scheduler/enqueued': 11,
+	 'scheduler/enqueued/memory': 11,
+	 'start_time': datetime.datetime(2013, 9, 19, 6, 39, 17, 865287)}
+2013-09-19 14:40:18+0800 [lily] INFO: Spider closed (finished)
