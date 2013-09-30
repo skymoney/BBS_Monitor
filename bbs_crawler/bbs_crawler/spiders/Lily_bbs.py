@@ -41,8 +41,13 @@ class Lilybbs(BaseSpider):
 		#process single bbs
 		dom=BeautifulSoup(response.body)
 		item=response.meta['item']
-		item['content']=dom.find('table').find('pre')
-		comments=dom.find_all('table')[1:]
+		with open(item['rank']+'.dat','wb') as f:
+			f.write(dom.prettify())
+		item['content']=dom.find('center').find('table',class_='main').find('pre')
+		comments=dom.find('center').find_all('table',class_='main')[1:]
+		print '###############'
+		print item['rank']
+		print item['link']
 		print len(comments)
 		item['comment']=[]
 		for comment in comments:
